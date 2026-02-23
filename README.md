@@ -1,20 +1,60 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# NS Hello World — Next.js Demo
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+A festive Hello World landing page built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**, styled in the iconic colours of the Dutch Railways (NS).
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Features
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- NS brand colours — NS Blue (`#003082`) and NS Yellow (`#FFC917`)
+- Staggered letter-reveal animation for the headline
+- Falling confetti in NS colours
+- Twinkling star field
+- Animated NS train running along a track
+- Glass-morphism station departure board
+- Glowing, floating NS badge
+- Fully responsive
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## Tech Stack
+
+| Tool | Version |
+|------|---------|
+| Next.js | 15 |
+| React | 19 |
+| TypeScript | 5 |
+| Tailwind CSS | 3 |
+
+## NS Colour Palette
+
+| Name | Hex |
+|------|-----|
+| NS Blue | `#003082` |
+| NS Yellow | `#FFC917` |
+| NS Dark | `#001847` |
+| NS Light Blue | `#0066CC` |
