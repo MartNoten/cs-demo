@@ -1,0 +1,872 @@
+INFO  2026-02-24T12:33:25 +41ms service=default logFile=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example/cloudbutler.log level=INFO print=false === CloudButler CLI Started ===
+INFO  2026-02-24T12:33:25 +0ms service=config path=/Users/martnoten/.config/cloudbuERROR 2026-02-24T12:53:56 +1230891ms service=acp-command promise={} reason=The operation was aborted. Unhandled rejection
+ERROR 2026-02-24T12:53:56 +0ms service=default e=The operation was aborted. rejection
+config/cloudbutler/cloudbutler.jsonc loading
+INFO  2026-02-24T12:33:25 +13ms service=server method=GET path=/config/providers request
+INFO  2026-02-24T12:33:25 +0ms service=server status=started method=GET path=/config/providers request
+INFO  2026-02-24T12:33:25 +0ms service=default directory=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example creating instance
+INFO  2026-02-24T12:33:25 +0ms service=project directory=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example fromDirectory
+INFO  2026-02-24T12:33:25 +0ms service=project status=started git.rev-parse
+INFO  2026-02-24T12:33:25 +1ms service=server method=GET path=/agent request
+INFO  2026-02-24T12:33:25 +0ms service=server status=started method=GET path=/agent request
+INFO  2026-02-24T12:33:25 +0ms service=server method=GET path=/config request
+INFO  2026-02-24T12:33:25 +0ms service=server status=started method=GET path=/config request
+INFO  2026-02-24T12:33:25 +0ms service=server method=GET path=/event request
+INFO  2026-02-24T12:33:25 +0ms service=server status=started method=GET path=/event request
+INFO  2026-02-24T12:33:25 +15ms service=project status=completed duration=16 git.rev-parse
+INFO  2026-02-24T12:33:25 +11ms service=default directory=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example bootstrapping
+INFO  2026-02-24T12:33:25 +1ms service=config === Loading Configuration Files ===
+INFO  2026-02-24T12:33:25 +1ms service=bun cmd=["/usr/local/bin/cloudbutler","add","@opencode-ai/plugin@87980c9","--exact"] cwd=/Users/martnoten/.config/cloudbutler running
+INFO  2026-02-24T12:33:26 +286ms service=bun code=1 stdout=bun add v1.3.2 (b131639c)
+ stderr=Resolving dependencies
+Resolved, downloaded and extracted [2]
+error: No version matching "87980c9" found for specifier "@opencode-ai/plugin" (but package exists)
+error: @opencode-ai/plugin@87980c9 failed to resolve
+ done
+INFO  2026-02-24T12:33:26 +1ms service=config === Configuration Summary ===
+WARN  2026-02-24T12:33:26 +0ms service=config No configuration files were loaded
+INFO  2026-02-24T12:33:26 +0ms service=config model=chatns/gpt-5.1 Active model
+INFO  2026-02-24T12:33:26 +0ms service=config model=chatns/gpt-4.1-mini Small model
+INFO  2026-02-24T12:33:26 +0ms service=config === Configuration Complete ===
+INFO  2026-02-24T12:33:26 +0ms service=plugin path=opencode-copilot-auth@0.0.5 loading plugin
+INFO  2026-02-24T12:33:26 +4ms service=plugin path=opencode-anthropic-auth@0.0.2 loading plugin
+INFO  2026-02-24T12:33:26 +27ms service=bus type=* subscribing
+INFO  2026-02-24T12:33:26 +0ms service=bus type=session.updated subscribing
+INFO  2026-02-24T12:33:26 +0ms service=bus type=message.updated subscribing
+INFO  2026-02-24T12:33:26 +0ms service=bus type=message.part.updated subscribing
+INFO  2026-02-24T12:33:26 +0ms service=format init
+INFO  2026-02-24T12:33:26 +0ms service=bus type=file.edited subscribing
+INFO  2026-02-24T12:33:26 +0ms service=lsp serverIds=deno, typescript, vue, eslint, gopls, ruby-lsp, pyright, elixir-ls, zls, csharp, sourcekit-lsp, rust, clangd, svelte, astro, jdtls, lua-ls enabled LSP servers
+INFO  2026-02-24T12:33:26 +2ms service=bus type=command.executed subscribing
+INFO  2026-02-24T12:33:26 +1ms service=server status=started providers
+INFO  2026-02-24T12:33:26 +1ms service=provider status=started state
+INFO  2026-02-24T12:33:26 +1ms service=server event connected
+INFO  2026-02-24T12:33:26 +1ms service=bus type=* subscribing
+INFO  2026-02-24T12:33:26 +2ms service=models.dev file={} refreshing
+INFO  2026-02-24T12:33:26 +1ms service=server status=completed duration=355 method=GET path=/event request
+INFO  2026-02-24T12:33:26 +0ms service=server status=completed duration=355 method=GET path=/config request
+INFO  2026-02-24T12:33:26 +0ms service=server status=completed duration=355 method=GET path=/agent request
+INFO  2026-02-24T12:33:26 +4ms service=provider init
+INFO  2026-02-24T12:33:26 +3ms service=provider providerID=opencode found
+INFO  2026-02-24T12:33:26 +0ms service=provider providerID=chatns found
+INFO  2026-02-24T12:33:26 +0ms service=provider status=completed duration=12 state
+INFO  2026-02-24T12:33:26 +0ms service=server status=completed duration=13 providers
+INFO  2026-02-24T12:33:26 +0ms service=server status=completed duration=363 method=GET path=/config/providers request
+INFO  2026-02-24T12:33:26 +4ms service=server method=GET path=/session request
+INFO  2026-02-24T12:33:26 +0ms service=server status=started method=GET path=/session request
+INFO  2026-02-24T12:33:26 +0ms service=server method=GET path=/command request
+INFO  2026-02-24T12:33:26 +0ms service=server status=started method=GET path=/command request
+INFO  2026-02-24T12:33:26 +1ms service=server status=completed duration=1 method=GET path=/command request
+INFO  2026-02-24T12:33:26 +0ms service=server method=GET path=/lsp request
+INFO  2026-02-24T12:33:26 +0ms service=server status=started method=GET path=/lsp request
+INFO  2026-02-24T12:33:26 +0ms service=server status=completed duration=0 method=GET path=/lsp request
+INFO  2026-02-24T12:33:26 +0ms service=server status=completed duration=1 method=GET path=/session request
+INFO  2026-02-24T12:33:26 +0ms service=server method=GET path=/mcp request
+INFO  2026-02-24T12:33:26 +0ms service=server status=started method=GET path=/mcp request
+INFO  2026-02-24T12:33:26 +0ms service=mcp key=atlassian type=local found
+INFO  2026-02-24T12:33:26 +3ms service=mcp key=azure-devops type=local found
+INFO  2026-02-24T12:33:26 +2ms service=mcp key=kubernetes type=local found
+INFO  2026-02-24T12:33:26 +1ms service=server method=GET path=/formatter request
+INFO  2026-02-24T12:33:26 +0ms service=server status=started method=GET path=/formatter request
+INFO  2026-02-24T12:33:26 +3ms service=server status=completed duration=3 method=GET path=/formatter request
+INFO  2026-02-24T12:33:28 +2418ms service=mcp key=azure-devops toolCount=44 create() successfully created client
+INFO  2026-02-24T12:33:29 +919ms service=mcp key=kubernetes toolCount=22 create() successfully created client
+INFO  2026-02-24T12:33:30 +573ms service=server method=POST path=/session request
+INFO  2026-02-24T12:33:30 +1ms service=server status=started method=POST path=/session request
+INFO  2026-02-24T12:33:30 +2ms service=session id=ses_3705c15dfffea3JBcZRlZTnIs9 version=87980c9 projectID=a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 directory=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example title=New session - 2026-02-24T12:33:30.144Z time={"created":1771936410144,"updated":1771936410144} created
+INFO  2026-02-24T12:33:30 +1ms service=bus type=session.created publishing
+INFO  2026-02-24T12:33:30 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:30 +0ms service=server status=completed duration=4 method=POST path=/session request
+INFO  2026-02-24T12:33:30 +2ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:33:30 +0ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:33:30 +2ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:33:30 +1ms service=server status=completed duration=3 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:33:30 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:30 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:30 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:30 +0ms service=provider providerID=chatns modelID=gpt-5.1 getModel
+INFO  2026-02-24T12:33:30 +1ms service=provider status=started providerID=chatns getSDK
+INFO  2026-02-24T12:33:30 +60ms service=provider status=completed duration=60 providerID=chatns getSDK
+INFO  2026-02-24T12:33:30 +0ms service=provider providerID=chatns modelID=gpt-5.1 found
+INFO  2026-02-24T12:33:30 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:33:30 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:33:31 +1295ms service=mcp key=atlassian toolCount=43 create() successfully created client
+INFO  2026-02-24T12:33:31 +0ms service=server status=completed duration=5288 method=GET path=/mcp request
+INFO  2026-02-24T12:33:31 +13ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:31 +4ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:33:31 +0ms service=provider providerID=chatns modelID=gpt-4.1-mini getModel
+INFO  2026-02-24T12:33:31 +0ms service=provider status=started providerID=chatns getSDK
+INFO  2026-02-24T12:33:31 +0ms service=provider status=completed duration=0 providerID=chatns getSDK
+INFO  2026-02-24T12:33:31 +1ms service=provider providerID=chatns modelID=gpt-4.1-mini found
+ERROR 2026-02-24T12:33:31 +2ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 error=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". model=gpt-4.1-mini failed to generate title
+INFO  2026-02-24T12:33:31 +4ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:33:31 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:33:31 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:31 +1ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:33:35 +4009ms service=snapshot initialized
+INFO  2026-02-24T12:33:35 +53ms service=snapshot hash=0bb5e57168d1355f639d699a3cf6cf9c84ac74e7
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:33:35 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1136ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +9ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +47ms service=snapshot hash=e543df0b079d8cfb1c7dadd78d38ac2efbf3602b
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:36 +39ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:36 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=session.compaction pruning
+INFO  2026-02-24T12:33:36 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocked
+INFO  2026-02-24T12:33:36 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocking
+INFO  2026-02-24T12:33:36 +1ms service=bus type=session.idle publishing
+INFO  2026-02-24T12:33:36 +1ms service=session.compaction pruned=0 total=0 found
+INFO  2026-02-24T12:33:36 +39ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:36 +0ms service=bus type=session.diff publishing
+ERROR 2026-02-24T12:33:36 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:33:44 +8031ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:33:44 +1ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:33:44 +1ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:33:44 +1ms service=server status=completed duration=2 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:33:44 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:44 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:44 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:44 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:33:44 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:33:44 +48ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:44 +1ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:33:44 +3ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:33:44 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:33:45 +46ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:45 +0ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:33:48 +3946ms service=snapshot hash=6015d5a0a504d7286eebb5f0bc496662ffb65e90
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:33:48 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:48 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:49 +314ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:49 +474ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:49 +42ms service=snapshot hash=b13f5651d365e95d051789099b12eb3721b1d86d
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:33:49 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:49 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:49 +30ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:33:49 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:49 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:49 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:49 +0ms service=session.compaction pruning
+INFO  2026-02-24T12:33:49 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocked
+INFO  2026-02-24T12:33:49 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocking
+INFO  2026-02-24T12:33:49 +2ms service=bus type=session.idle publishing
+INFO  2026-02-24T12:33:49 +3ms service=session.compaction pruned=0 total=0 found
+INFO  2026-02-24T12:33:49 +40ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:33:49 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:33:49 +0ms service=bus type=session.diff publishing
+ERROR 2026-02-24T12:33:49 +1ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:38:25 +275534ms service=bus type=* unsubscribing
+INFO  2026-02-24T12:38:25 +1ms service=server event disconnected
+INFO  2026-02-24T12:38:28 +3011ms service=server method=GET path=/event request
+INFO  2026-02-24T12:38:28 +0ms service=server status=started method=GET path=/event request
+INFO  2026-02-24T12:38:28 +3ms service=server event connected
+INFO  2026-02-24T12:38:28 +2ms service=bus type=* subscribing
+INFO  2026-02-24T12:38:28 +1ms service=server status=completed duration=6 method=GET path=/event request
+INFO  2026-02-24T12:42:55 +267375ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:42:55 +1ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:42:55 +5ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:42:55 +3ms service=server status=completed duration=7 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:42:55 +2ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:42:55 +3ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:42:55 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:42:55 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:42:55 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:42:55 +96ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:42:55 +3ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:42:55 +9ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:42:55 +1ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:42:55 +58ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:42:55 +0ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:43:01 +5665ms service=snapshot hash=e9fe4a6359e3cd11c08af3fddbb85225500b0b5a
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:43:01 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:43:01 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:43:01 +37ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:43:02 +478ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:43:02 +34ms service=snapshot hash=b446ad512c5b036af6c8e6e24d34e6651e161608
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:43:02 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:43:02 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:43:02 +26ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:43:02 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:43:02 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:43:02 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:43:02 +0ms service=session.compaction pruning
+INFO  2026-02-24T12:43:02 +1ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocked
+INFO  2026-02-24T12:43:02 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocking
+INFO  2026-02-24T12:43:02 +0ms service=bus type=session.idle publishing
+INFO  2026-02-24T12:43:02 +2ms service=session.compaction pruned=0 total=0 found
+INFO  2026-02-24T12:43:02 +39ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:43:02 +1ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:43:02 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:43:02 +0ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:47:24 +262166ms service=bus type=* unsubscribing
+INFO  2026-02-24T12:47:24 +2ms service=server event disconnected
+INFO  2026-02-24T12:47:30 +6003ms service=server method=GET path=/event request
+INFO  2026-02-24T12:47:30 +1ms service=server status=started method=GET path=/event request
+INFO  2026-02-24T12:47:30 +1ms service=server event connected
+INFO  2026-02-24T12:47:30 +3ms service=bus type=* subscribing
+INFO  2026-02-24T12:47:30 +1ms service=server status=completed duration=5 method=GET path=/event request
+INFO  2026-02-24T12:50:53 +202899ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:50:53 +1ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:50:53 +5ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:50:53 +1ms service=server status=completed duration=6 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:50:53 +2ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:53 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:53 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:50:53 +1ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:50:53 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:50:53 +72ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:53 +3ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:50:53 +10ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:50:53 +1ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:50:53 +49ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:50:53 +1ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:50:59 +5800ms service=snapshot hash=46936f263fe14e0cfbb02354213de9d7d01e73e5
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:50:59 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:59 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:59 +113ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:59 +26ms service=bash-tool arg=.. resolved=/Users/martnoten/dev/work/ns resolved path
+INFO  2026-02-24T12:50:59 +3ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:59 +99ms service=snapshot hash=dddc2be14235315313ad0415d5eb40cfbbdcae1c
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:50:59 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:59 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:59 +27ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:50:59 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:59 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:59 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:59 +0ms service=session.compaction pruning
+INFO  2026-02-24T12:50:59 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocked
+INFO  2026-02-24T12:50:59 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocking
+INFO  2026-02-24T12:50:59 +0ms service=bus type=session.idle publishing
+INFO  2026-02-24T12:50:59 +3ms service=session.compaction pruned=0 total=1 found
+INFO  2026-02-24T12:50:59 +38ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:50:59 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:50:59 +0ms service=bus type=session.diff publishing
+ERROR 2026-02-24T12:50:59 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:51:28 +28588ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:51:28 +0ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:51:28 +7ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:51:28 +1ms service=server status=completed duration=8 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:51:28 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:51:28 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:28 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:51:28 +1ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:51:28 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:51:28 +84ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:51:28 +2ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:51:28 +5ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:51:28 +2ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:51:28 +42ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:51:28 +0ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:51:43 +14954ms service=snapshot hash=988c42c64e97631bfa236357505387d061e00094
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:51:43 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:43 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:43 +73ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:43 +254ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:43 +38ms service=snapshot hash=71b59206a97906c2602af0b2e4e6cdca3fb32ce2
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:51:43 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:43 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:51:43 +31ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:51:43 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:51:43 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:51:43 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:51:43 +0ms service=session.compaction pruning
+INFO  2026-02-24T12:51:43 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocked
+INFO  2026-02-24T12:51:43 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocking
+INFO  2026-02-24T12:51:43 +0ms service=bus type=session.idle publishing
+INFO  2026-02-24T12:51:43 +8ms service=session.compaction pruned=0 total=1913 found
+INFO  2026-02-24T12:51:43 +40ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:51:43 +1ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:51:43 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:51:43 +0ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:52:25 +41862ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:52:25 +1ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:52:25 +5ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:52:25 +0ms service=server status=completed duration=5 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:52:25 +2ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:25 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:25 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:52:25 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:52:25 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:52:25 +88ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:25 +1ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:52:25 +9ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:52:25 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:52:25 +53ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:52:25 +1ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:52:42 +16691ms service=snapshot hash=5ad07cd821ca2467013aa55339f748b696105997
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:52:42 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +3223ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +9ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +4ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +13ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +10ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +87ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +11ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +9ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:45 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1014ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +3ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +3ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +3ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +34ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:46 +3ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +8ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +7ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +6ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +18ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +11ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +2ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +23ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +292ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +5ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +10ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +9ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +43ms service=snapshot hash=c8bf729e69cbff1741d4d69c1812fd9d1ce43bd2
+ cwd=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example git=/Users/martnoten/.local/share/cloudbutler/snapshot/a40ae7dd1ae92bc0a1dfb59fa4ce8181c229a2e6 tracking
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:47 +31ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=session.compaction pruning
+INFO  2026-02-24T12:52:47 +0ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocked
+INFO  2026-02-24T12:52:47 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 unlocking
+INFO  2026-02-24T12:52:47 +1ms service=bus type=session.idle publishing
+INFO  2026-02-24T12:52:47 +9ms service=session.compaction pruned=0 total=1913 found
+INFO  2026-02-24T12:52:47 +39ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:52:47 +1ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:52:47 +0ms service=bus type=session.diff publishing
+ERROR 2026-02-24T12:52:47 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:53:53 +66388ms service=server method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:53:53 +1ms service=server status=started method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:53:53 +5ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 prompt
+INFO  2026-02-24T12:53:53 +0ms service=server status=completed duration=5 method=POST path=/session/ses_3705c15dfffea3JBcZRlZTnIs9/message request
+INFO  2026-02-24T12:53:53 +2ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:53:53 +1ms service=bus type=message.part.updated publishing
+INFO  2026-02-24T12:53:53 +0ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:53:53 +1ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locked
+INFO  2026-02-24T12:53:53 +0ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 locking
+INFO  2026-02-24T12:53:54 +71ms service=bus type=message.updated publishing
+INFO  2026-02-24T12:53:54 +3ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 process
+INFO  2026-02-24T12:53:54 +8ms service=bus type=message.updated publishing
+ERROR 2026-02-24T12:53:54 +0ms service=default e=Unsupported model version v3 for provider "chatns.chat" and model "gpt-4.1-mini". AI SDK 5 only supports models that implement specification version "v2". rejection
+INFO  2026-02-24T12:53:54 +55ms service=bus type=session.updated publishing
+INFO  2026-02-24T12:53:54 +1ms service=bus type=session.diff publishing
+INFO  2026-02-24T12:53:56 +2521ms service=bus type=* unsubscribing
+INFO  2026-02-24T12:53:56 +0ms service=server event disconnected
+INFO  2026-02-24T12:53:56 +1ms service=default directory=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example disposing instance
+INFO  2026-02-24T12:53:56 +0ms service=state key=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example waiting for state disposal to complete
+INFO  2026-02-24T12:53:56 +1ms service=session.lock sessionID=ses_3705c15dfffea3JBcZRlZTnIs9 force abort
+INFO  2026-02-24T12:53:56 +0ms service=state key=/Users/martnoten/dev/work/ns/cs-demo-nextjs-example state disposal completed
+ERROR 2026-02-24T12:53:56 +2ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 error={"error":{"line":64490,"column":28,"sourceURL":"/$bunfs/root/src/cli/cmd/tui/worker.js"}} stream error
+ERROR 2026-02-24T12:53:56 +1ms service=session.prompt session=ses_3705c15dfffea3JBcZRlZTnIs9 error=The operation was aborted. process
+INFO  2026-02-24T12:53:56 +0ms service=bus type=session.error publishing
