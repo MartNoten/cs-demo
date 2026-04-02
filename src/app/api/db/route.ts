@@ -11,7 +11,13 @@ const pool = new Pool({
 })
 
 export async function GET() {
-  const client = await pool.connect()
+  let client
+  try {
+    client = await pool.connect()
+  } catch (err) {
+    console.error('DB connection failed:', err)
+    return NextResponse.json({ error: 'Database connection failed', detail: String(err) }, { status: 503 })
+  }
   try {
     // Seed table on first call
     await client.query(`
@@ -50,6 +56,9 @@ export async function GET() {
     `)
 
     return NextResponse.json({ stations, meta: meta[0] })
+  } catch (err) {
+    console.error('DB query failed:', err)
+    return NextResponse.json({ error: 'Database query failed', detail: String(err) }, { status: 500 })
   } finally {
     client.release()
   }
