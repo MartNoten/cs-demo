@@ -364,8 +364,9 @@ export default function Home() {
         </div>
 
         {/* CTA button */}
-        <button
-          className="animate-slide-up mt-8 rounded-xl px-10 py-4 text-lg font-bold shadow-lg transition-all duration-300 hover:scale-105 hover:brightness-110 active:scale-95"
+        <a
+          href="/database"
+          className="animate-slide-up mt-8 inline-block rounded-xl px-10 py-4 text-lg font-bold shadow-lg transition-all duration-300 hover:scale-105 hover:brightness-110 active:scale-95"
           style={{
             backgroundColor: NS_YELLOW,
             color: NS_BLUE,
@@ -374,7 +375,7 @@ export default function Home() {
           }}
         >
           Instappen &nbsp;·&nbsp; Board Now →
-        </button>
+        </a>
 
         {/* Dot indicators */}
         <div
